@@ -1,0 +1,286 @@
+/*==========  Desktop First Method  ==========*/
+
+/* Large Devices, Wide Screens */
+@media only screen and (max-width : 1200px) {
+	.name {
+		margin-top: 10px;
+		font-size: 52px;
+	}
+
+	.name + p {
+		margin
+		font-size: 14px;
+	}
+
+	.content {
+		margin-top: 15%;
+	}
+
+	.about li {
+		display: block;
+		width: 100%;
+		margin-bottom: 60px;
+	}
+
+	.left-arrow,
+	.right-arrow {
+		font-size: 80px;
+		cursor: pointer;
+	}
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (max-width : 992px) {
+	.name {
+		font-size: 42px;
+	}
+
+	.name + p {
+		font-size: 12px;
+	}
+
+	nav a {
+		font-size: 16px;
+	}
+
+	.about li {
+		display: block;
+		width: 100%;
+		margin-bottom: 60px;
+	}
+
+	.left-arrow,
+	.right-arrow {
+		font-size: 80px;
+	}
+}
+
+/* Small Devices, Tablets */
+@media only screen and (max-width : 768px) {
+	/*.filter {
+		height: 450px;
+	}*/
+
+	nav {
+		text-align: center;
+	}
+
+	nav ul {
+		display: none;
+	}
+
+	nav .menu-icon {
+		display: block;
+		font-size: 30px;
+	}
+
+	.content {
+		margin-top: 25%;
+	}
+
+	.about li {
+		display: block;
+		width: 100%;
+		margin-bottom: 60px;
+	}
+
+	/*.name + p {
+		display: none;
+	}*/
+
+	.timetable h3 {
+		margin: 5px;
+		font-size: 16px;
+	}
+
+	.timetable table {
+		display: block;
+		overflow-x: auto;
+	}
+
+	.timetable th {
+		height: 10px;
+	}
+
+	.timetable th,
+	.timetable td {
+		padding: 0 10px;
+		font-size: 12px;
+		text-align: left;
+	}
+
+	.slider img {
+		width: 100%;
+		height: auto;
+	}
+
+	.left-arrow,
+	.right-arrow {
+		margin-top: -25%;
+		font-size: 70px;
+	}
+
+	.contacts {
+		width: 80%;
+	}
+
+	.contacts h3 {
+		font-size: 18px;
+	}
+
+	.contacts a {
+		font-size: 30px;
+	}
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (max-width : 480px) {
+	.name {
+		font-size: 32px;
+	}
+
+	/*.name + p {
+		display: none;
+	}*/
+
+	nav a {
+		font-size: 14px;
+	}
+
+	nav {
+		text-align: center;
+	}
+
+	nav .menu-icon {
+		display: block;
+		font-size: 30px;
+	}
+
+	nav ul {
+		display: none;
+	}
+
+	.content {
+		margin-top: 35.3%;
+	}
+
+	.about li {
+		display: block;
+		width: 100%;
+		margin-bottom: 60px;
+	}
+
+	.events h2 {
+		font-size: 18px;
+	}
+
+	.timetable h3 {
+		margin: 5px;
+		font-size: 16px;
+	}
+
+	.timetable table {
+		display: block;
+		overflow-x: auto;
+	}
+
+	.timetable th {
+		height: 10px;
+	}
+
+	.timetable th,
+	.timetable td {
+		padding: 0 10px;
+		font-size: 12px;
+		text-align: left;
+	}
+
+	.slider img {
+		width: 100%;
+		height: auto;
+	}
+
+	.left-arrow,
+	.right-arrow {
+		margin-top: -20%;
+		font-size: 60px;
+}
+
+	.contacts {
+		width: 100%;
+	}
+
+	.contacts h3 {
+		font-size: 14px;
+	}
+
+	.contacts a {
+		font-size: 25px;
+	}
+}
+
+/* Custom, iPhone Retina */
+@media only screen and (max-width : 320px) {
+	.timetable h3 {
+		margin: 0px;
+		font-size: 12px;
+	}
+
+	.timetable table {
+		display: block;
+		overflow-x: auto;
+	}
+
+	.timetable th {
+		height: 10px;
+	}
+
+	.timetable th,
+	.timetable td {
+		padding: 0 10px;
+		font-size: 10px;
+		text-align: left;
+	}
+
+	.left-arrow,
+	.right-arrow {
+		margin-top: -25%;
+		font-size: 50px;
+	}
+}
+
+
+/*==========  Mobile First Method  ==========*/
+
+/* Custom, iPhone Retina */
+@media only screen and (min-width : 320px) {
+
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (min-width : 480px) {
+	
+}
+
+/* Small Devices, Tablets */
+@media only screen and (min-width : 769px) {
+	nav ul {
+		display: block !important;
+	}
+
+	nav ul li {
+		width: 15% !important;
+	}
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (min-width : 992px) {
+	nav ul {
+		display: block !important;
+	}
+}
+
+ /* Large Devices, Wide Screens */
+@media only screen and (min-width : 1200px) {
+
+}

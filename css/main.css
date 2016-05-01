@@ -1,0 +1,310 @@
+*::-webkit-input-placeholder {
+	color: #666;
+	opacity: 1;
+}
+*:-moz-placeholder {
+	color: #666;
+	opacity: 1;
+}
+*::-moz-placeholder {
+	color: #666;
+	opacity: 1;
+}
+*:-ms-input-placeholder {
+	color: #666;
+	opacity: 1;
+}
+
+body input:focus:required:invalid,
+body textarea:focus:required:invalid {
+	
+}
+body input:required:valid,
+body textarea:required:valid {
+	
+}
+body {
+	font-family: "RobotoRegular", sans-serif;
+	font-size: 16px;
+}
+
+html,
+body {
+	min-height: 100%;
+}
+
+body {
+	background-image: url("../img/main-bg2.jpg");
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-size: cover;
+	background-attachment: fixed;
+}
+
+.filter {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	/*min-height: 100%;
+	background: #34495e;
+	opacity: 0.7;*/
+}
+
+.menu-icon {
+	display: none;
+	cursor: pointer;
+}
+
+.about-link:focus,
+.events-link:focus,
+.timetable-link:focus,
+.gallery-link:focus,
+.contacts-link:focus {
+	outline: 0;
+}
+
+.name {
+	margin-top: 30px;
+	margin-bottom: 0;
+	font-family: "NautilusPompiliusRegular";
+	font-size: 62px;
+	color: #fff;
+	text-align: center;
+}
+
+.name + p {
+	margin-top: 0;
+	color: #fff;
+	text-transform: uppercase;
+	text-align: center;
+}
+
+nav {
+	border-radius: 0 0 20px 20px;
+	background: #9b59b6;
+}
+
+nav ul {
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+	text-align: center;
+}
+
+nav ul li {
+	display: inline-block;
+	margin-left: 20px;
+
+	text-transform: uppercase;
+}
+
+nav a:hover {
+	color: #000;
+}
+
+nav a {
+	display: block;
+	font-family: "RobotoRegular";
+	font-size: 18px;
+	color: #fff;
+}
+
+.container {
+	position: relative;
+	padding-bottom: 10px;
+}
+
+.content {
+	margin-top: 13.5%;
+}
+
+.aaa {
+	position: absolute;
+	/*top: 20%;
+	left: 50%;
+	display: none;
+	max-width: 50%;
+	margin-left: -25%;*/
+	padding: 15px;
+	color: #fff;
+	background: #2c3e50;
+	opacity: 0.9;
+	border-radius: 20px;
+	/*text-align: center;*/
+	z-index: 10;
+}
+
+
+.about,
+.events,
+.timetable,
+.gallery,
+.contacts {
+	/*position: absolute;
+	top: 20%;
+	left: 50%;*/
+	display: none;
+	/*max-width: 50%;
+	margin-left: -25%;*/
+	padding: 15px;
+	color: #fff;
+	background: #2c3e50;
+	opacity: 0.9;
+	border-radius: 20px;
+	/*text-align: center;*/
+	z-index: 10;
+}
+
+.about {
+	text-align: center;
+}
+
+.about img {
+	width: 15%;
+	height: auto;
+}
+
+.about ul {
+	list-style-type: none;
+	padding-left: 0;
+}
+
+.about li {
+	display: inline-block;
+	width: 33%;
+	padding: 0 20px;
+	vertical-align: top;
+	text-align: center;
+}
+
+.events {
+	text-align: center;
+}
+
+.events img {
+	width: 30%;
+	height: auto;
+}
+
+.timetable h3 {
+	font-size: 20px;
+	color: #9b59b6;
+}
+
+.timetable table {
+	width: 100%;
+	border-collapse: collapse;
+}
+
+.timetable .underliner {
+	border-bottom: 1px solid #ddd;
+}
+
+/*.timetable tr:nth-child(odd) {
+	background: #9b59b6;
+}*/
+.timetable tr:hover {
+	background: #9b59b6;
+}
+
+.timetable tr:first-child:hover {
+	background: none;
+}
+
+.timetable th {
+	height: 50px;
+	text-align: left;
+	vertical-align: middle;
+}
+
+.timetable th,
+.timetable td {
+	padding: 30px;
+	/*border-bottom: 1px solid #ddd;*/
+}
+
+.gallery {
+	width: 83%;
+	margin: auto;
+	/*margin-left: -22%;*/
+}
+
+.left-arrow,
+.right-arrow {
+	position: absolute;
+	top: 50%;
+	margin-top: -15%;
+	z-index: 10;
+	font-size: 80px;
+	color: #9b59b6;
+	cursor: pointer;
+}
+
+.left-arrow {
+	left: 5px;
+}
+
+.right-arrow {
+	right: 5px;
+}
+
+.slider {
+	position: relative;
+}
+
+.slider .item {
+	position: absolute;
+	display: none;
+}
+
+.slider img {
+	display: block;
+	width: 100%;
+	height: auto;
+}
+
+.slider .active-slide {
+	display: block;
+}
+
+.owl-carousel img {
+	display: block;
+	max-width: 100%;
+	height: auto;
+}
+
+.contacts {
+	width: 50%;
+	margin: auto;
+	/*margin-left: -12%;*/
+	padding: 30px;
+	text-align: center;
+}
+
+.contacts ul {
+	width: 100%;
+	-webkit-padding-start: 0;
+	list-style-type: none;
+}
+
+.contacts ul li {
+	display: inline-block;
+	margin-left: 40px;
+	font-size: 30px;
+}
+
+.contacts ul li:first-child {
+	margin-left: 0;
+}
+
+.contacts li a {
+	color: #fff;
+	outline: 0;
+}
+
+.contacts li a:hover {
+	color: #9b59b6;
+}
+
+
